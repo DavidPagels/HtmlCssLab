@@ -9,27 +9,31 @@
 
     <div>
     <ul>
-        <li><a href="#Fruit">Fruit</a></li>
-        <li><a href="#No Fruit">No Fruit</a></li>
-        <li><a href="#Also No Fruit">Also No Fruit</a></li>
+        <li><a href="http://en.wikipedia.org/wiki/Fruit">Fruit</a></li>
+        <li><a href="http://en.wikipedia.org/wiki/Shinz%C5%8D_Abe">No Fruit</a></li>
+        <li><a href="https://wiki.umn.edu/UMMCSci3601Spring2014/HtmlCssLab">Also No Fruit</a></li>
+        <li><a href="http://en.wikipedia.org/wiki/Panda">Big Panda</a></li>
+        <li><a href="http://www.youtube.com/watch?v=dQw4w9WgXcQ">Free iPad</a></li>
     </ul>
     </div>
 
-    <div></div>
+    <div><p>We are a fake fruit company devoted to our fruit!</p>
+    <p>If your fruit does not arrive in a timely fashion, it is because it does not exist.</p>
+    <p>Also, the contact information is completely made up so please leave me alone.</p></div>
 
-    <img src="fruit1.jpg" class="pictures">
-    <img src="fruit2.jpg" class="pictures">
-    <img src="fruit3.jpg" class="pictures">
+    <img src="fruit1.jpg" class="pictures"><br>
+    <p>Bowl of Fruit.</p><br>
+
+    <img src="fruit2.jpg" class="pictures"><br>
+    <p>Apple I think?</p><br>
+    <img src="fruit3.jpg" class="pictures"><br>
+    <p>Dead Kiwi</p><br>
+
 
     <div>
     <footer><p>Contact Information</p>
         <p>(800)223-1252</p>
         <p>1234 North St. Morris, MN 56267</p></footer>
     </div>
-
-
-
-
-
 </body>
 </html>
