@@ -1,6 +1,18 @@
 <!DOCTYPE html>
-        <html>
+<html>
+<head>
+    <title>Title for the Page</title>
+
+</head>
 <body>
+    <div id="title"><h1>This is the title for the page</h1></div>
+    <tr>
+        <td> 1 </td>
+        <td> 2 </td>
+        <td> 3 </td>
+    </tr>
+    <div id="middle"></div>
+    <footer><p>1234 North St. Morris, MN 56267</p></footer>
 
 </body>
-        </html>
+</html>
