@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Title for the Page</title>
-
+    <title>Fruitmania!</title>
+    <link rel="stylesheet" type="text/css" href="formatting.css">
 </head>
 <body>
-    <div id="title"><h1>This is the title for the page</h1></div>
-    <tr>
-        <td> 1 </td>
-        <td> 2 </td>
-        <td> 3 </td>
-    </tr>
-    <div id="middle"></div>
-    <footer><p>1234 North St. Morris, MN 56267</p></footer>
+    <h1>Fruitmania!</h1>
+
+    <div>
+    <ul>
+        <li><a href="#Fruit">Fruit</a></li>
+        <li><a href="#No Fruit">No Fruit</a></li>
+        <li><a href="#Also No Fruit">Also No Fruit</a></li>
+    </ul>
+    </div>
+
+    <div></div>
+
+    <img src="fruit1.jpg" class="pictures">
+    <img src="fruit2.jpg" class="pictures">
+    <img src="fruit3.jpg" class="pictures">
+
+    <div>
+    <footer><p>Contact Information</p>
+        <p>(800)223-1252</p>
+        <p>1234 North St. Morris, MN 56267</p></footer>
+    </div>
+
+
+
+
 
 </body>
 </html>

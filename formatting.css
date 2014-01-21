@@ -1,0 +1,39 @@
+
+body {
+    background-color:#77FAD0;
+}
+h1{
+    text-align:center;
+}
+ #a {
+     border: 1px dashed;
+}
+
+.pictures {
+    height: 100px;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+
+}
+li{
+    float:left;
+}
+a:link,a:visited{
+    display:block;
+    padding:10px;
+    font-size:large;
+    background-color:#262993;
+    color:#FFFFFF;
+    text-align: center;
+
+    text-transform:uppercase;
+
+}
+a:hover,a:active{
+    background-color:#262993
+}
