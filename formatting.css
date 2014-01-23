@@ -1,12 +1,9 @@
 
 body {
-    background-color:#77FAD0;
+    background-color: #59fa8d;
 }
 h1{
     text-align:center;
-}
- #a {
-     border: 1px dashed;
 }
 
 ul{
@@ -18,7 +15,9 @@ ul{
 }
 li{
     float:left;
+    width: 20%;
 }
+
 a:link{
     display:block;
     padding:10px;
@@ -28,20 +27,88 @@ a:link{
     text-align: center;
     text-decoration:none;
     text-transform:uppercase;
-    border-radius: 30px;
+    border-radius: 15%;
 
 }
+
 a:visited{
     background-color:#FFFF00;
 }
+
 a:hover,a:active{
     background-color:#FF00FF;
 }
 
+h2{
+    text-decoration: underline;
+}
+#para{
+    margin-bottom: 100px;
+}
+
 .pictures {
-    height: 200px;
+    width: 100%;
+}
+
+#pic1 {
+    width: 40%;
+    padding: 0px;
+    float: left;
+    margin-left: 10%;
+}
+
+#pic2 {
+    width: 32%;
+    padding: 0px;
+    margin-right: 13%;
+    float: right;
+
+}
+
+#pic3 {
+    margin-left: auto;
+    margin-right: auto;;
+    width: 40%;
+    padding: 0px;
+}
+
+.cap{
+    text-align: center;
 }
 
 footer{
     text-align:center;
 }
+
+#foot{
+
+    width: 35%;
+    border: 5px ridge;
+    border-color: #19c8b4;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #59fa8d;
+}
+
+.contact {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#page {
+    background-color: #37fabc;
+    box-shadow: 0px 0px 50px #37853b;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 70%;
+    padding: 20px;
+    border-radius: 1%;
+}
+
+p {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+

@@ -10,30 +10,40 @@
     <div>
     <ul>
         <li><a href="http://en.wikipedia.org/wiki/Fruit">Fruit</a></li>
-        <li><a href="http://en.wikipedia.org/wiki/Shinz%C5%8D_Abe">No Fruit</a></li>
-        <li><a href="https://wiki.umn.edu/UMMCSci3601Spring2014/HtmlCssLab">Also No Fruit</a></li>
+        <li><a href="http://en.wikipedia.org/wiki/Shinz%C5%8D_Abe">Not Fruit</a></li>
+        <li><a href="https://wiki.umn.edu/UMMCSci3601Spring2014/HtmlCssLab">Also Not Fruit</a></li>
         <li><a href="http://en.wikipedia.org/wiki/Panda">Big Panda</a></li>
         <li><a href="http://www.youtube.com/watch?v=dQw4w9WgXcQ">Free iPad</a></li>
     </ul>
     </div>
 
-    <div><p>We are a fake fruit company devoted to our fruit!</p>
-    <p>If your fruit does not arrive in a timely fashion, it is because it does not exist.</p>
-    <p>Also, the contact information is completely made up so please leave me alone.</p></div>
+    <div id="page">
+        <h2>Our Mission:</h2>
+        <div id="para"><p>We are a fake fruit company devoted to our fruit!</p>
+        <p>If your fruit does not arrive in a timely fashion, it is because it does not exist.</p>
+        <p>Also, the contact information is completely made up so please leave me alone.</p></div>
 
-    <img src="fruit1.jpg" class="pictures"><br>
-    <p>Bowl of Fruit.</p><br>
+        <div id="pic1">
+            <img src="fruit1.jpg" class="pictures"><br>
+            <p class="cap">Bowl of Fruit.</p><br>
+        </div>
 
-    <img src="fruit2.jpg" class="pictures"><br>
-    <p>Apple I think?</p><br>
-    <img src="fruit3.jpg" class="pictures"><br>
-    <p>Dead Kiwi</p><br>
-dslkfs
+        <div id="pic2">
+            <img src="fruit2.jpg" class="pictures"><br>
+            <p class="cap">Apple I think?</p><br>
+        </div>
 
-    <div>
-    <footer><p>Contact Information</p>
-        <p>(800)223-1252</p>
-        <p>1234 North St. Morris, MN 56267</p></footer>
+        <div id="pic3">
+            <img src="fruit3.jpg" class="pictures"><br>
+            <p class="cap">Dead Kiwi</p><br>
+        </div>
+
+    </div>
+
+    <div id="foot">
+    <footer><p class="contact">Contact Information</p>
+        <p class="contact">(800)223-1252</p>
+        <p class="contact">1234 North St. Morris, MN 56267</p></footer>
     </div>
 </body>
 </html>
