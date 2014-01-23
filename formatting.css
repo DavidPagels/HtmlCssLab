@@ -9,10 +9,6 @@ h1{
      border: 1px dashed;
 }
 
-.pictures {
-    height: 100px;
-}
-
 ul{
     list-style-type: none;
     margin:0;
@@ -23,17 +19,29 @@ ul{
 li{
     float:left;
 }
-a:link,a:visited{
+a:link{
     display:block;
     padding:10px;
     font-size:large;
     background-color:#262993;
     color:#FFFFFF;
     text-align: center;
-
+    text-decoration:none;
     text-transform:uppercase;
+    border-radius: 30px;
 
 }
+a:visited{
+    background-color:#FFFF00;
+}
 a:hover,a:active{
-    background-color:#262993
+    background-color:#FF00FF;
+}
+
+.pictures {
+    height: 200px;
+}
+
+footer{
+    text-align:center;
 }
